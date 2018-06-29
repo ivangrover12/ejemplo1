@@ -7,19 +7,19 @@
 <body>
 
 	<nav class="navbar navbar-dark bg-primary">
-		<a href="#" class="navbar-brand">Ejemplo Cechus y Anita</a>	
-		
-		<a href="/trainers/create" class="btn btn-success">CrearNuevo</a>	
-		<a href="/trainers" class="btn btn-warning" >Home</a>	
+		<a href="#" class="navbar-brand">Ejemplo Cechus y Karen</a>	
+
+		<a href="/trainers/create" class="btn btn-success">CrearNuevo</a>
+		<a href="/trainers" class="btn btn-warning" >Home</a>
 		{{-- {!! Form::open([ 'route' => ['trainers.store', $trainer->slug],'method' => 'DELETE']) !!}
 	 	{!! Form::submit('CrearNuevo', ['class' => 'btn btn-danger']) !!}
 	 	{!! Form::close() !!} --}}
 	</nav>
 
     <div class="container">
-        @yield('content')    
+        @yield('content')
     </div>
-    
+
 
 </body>
 </html>
