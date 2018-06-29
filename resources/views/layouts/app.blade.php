@@ -7,7 +7,7 @@
 <body>
 
 	<nav class="navbar navbar-dark bg-primary">
-		<a href="#" class="navbar-brand">Lista de Objetos</a>	
+		<a href="#" class="navbar-brand">Ejemplo Uno</a>	
 		
 		<a href="/trainers/create" class="btn btn-success">CrearNuevo</a>	
 		<a href="/trainers" class="btn btn-warning" >Home</a>	
